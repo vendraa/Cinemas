@@ -1,0 +1,113 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .register-content {
+    background: white;
+    width: 80%;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+ 
+  .register-greeting {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    color: #333;
+  }
+  
+  .register-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .register-form {
+    width: 100%;
+  }
+  
+  .register-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .register-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-label {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .register-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    background-color: #f7f7f7; 
+  }
+  
+  .register-button {
+    background-color: #047130;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .register-button:hover {
+    background-color: #cfcfcf;
+  }
+
+.error-message {
+  color: red;
+  font-size: 1rem; 
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.success-message {
+  color: green;
+  font-size: 1rem; 
+  margin-bottom: 10px; 
+  text-align: center; 
+}
+
+  .register-login-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .register-login-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-login-link:hover {
+    text-decoration: underline;
+  }
+  

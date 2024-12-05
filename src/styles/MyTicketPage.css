@@ -1,0 +1,118 @@
+  .ticket-container {
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-sizing: border-box;
+  }
+  
+  .ticket-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    width: 100%; 
+  }
+  
+  .ticket-back-button {
+    position: absolute; 
+    left: 50px;
+    font-size: 32px;
+    font-family: 'Poppins';
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .ticket-tabs {
+    display: flex;
+  }
+  
+  .ticket-tab {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .ticket-tab-active {
+    background: white;
+    color: #0d1a2f;
+  }
+  
+  .ticket-tab:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #0d1a2f;
+  }
+  
+  .ticket-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .ticket-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .ticket-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .ticket-info p {
+    margin: 5px 0;
+  }
+  
+  .ticket-label {
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .ticket-bold {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .ticket-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 0;
+  }
+  
+  .ticket-download-button {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    cursor: pointer;
+  }
+  
+  .ticket-download-button:hover {
+    background: darkgreen;
+  }
+  

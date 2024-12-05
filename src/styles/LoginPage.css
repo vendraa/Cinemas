@@ -1,0 +1,139 @@
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+}
+
+.login-logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 150px;
+}
+
+.login-left {
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.login-left .text {
+    margin-top: auto; 
+}
+
+.login-left h1 {
+    font-size: 48px;
+    margin: 0;
+    opacity: 0.9;
+}
+
+.login-left p {
+    font-size: 40px;
+    margin: 10px 0 0;
+    opacity: 0.5;
+}
+
+.login-right {
+    background-color: white;
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.login-form {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-form h2 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.login-form p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: black; 
+}
+
+.login-form label {
+    display: block; 
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    background-color: #f0f0f0;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #047130;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+.login-form button:hover {
+    background-color: #cfcfcf;
+}
+
+.login-form .register {
+    margin-top: 20px; 
+    font-size: 14px;
+    color: gray;
+}
+
+.login-form .success-message {
+    color: green;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+
+.login-form .error-message {
+    color: red; 
+    font-size: 1rem; 
+    margin-bottom: 10px;
+    text-align: center; 
+  }
+  
+
+.register-link {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}

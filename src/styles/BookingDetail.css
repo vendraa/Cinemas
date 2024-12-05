@@ -1,0 +1,204 @@
+.booking-container {
+  padding: 40px;
+  padding-top: 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.booking-container h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.booking-back-button {
+  position: absolute;
+  left: 40px;
+  top: 100px; 
+  font-size: 32px;
+  font-family: 'Poppins';
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.booking-content {
+  display: flex;
+  padding-top: 40px;
+  gap: 20px;
+}
+
+.booking-left {
+  flex: 1;
+}
+
+.booking-right {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.booking-right img.booking-poster {
+  width: 60%;
+  max-width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.booking-right h3 {
+  font-size: 1.4em;
+  margin: 10px 0;
+}
+
+.booking-right .booking-details {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.booking-right .detail-box {
+  padding: 8px 15px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 35px;
+  font-size: 0.9em;
+  font-family: 'Poppins';
+  color: white;
+}
+
+
+.booking-section {
+  margin-bottom: 30px; 
+}
+
+.booking-section h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.booking-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.booking-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.booking-option {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-family: 'Poppins';
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.booking-option.selected,
+.booking-option:hover {
+  background: #08b94f;
+}
+
+.booking-icon-location {
+  width: 12px;
+  height: 18px;
+}
+
+.booking-ticket-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.booking-ticket-section button {
+  width: 40px;
+  height: 40px;
+  font-size: 1.2em;
+  font-family: 'Poppins';
+  background: #047130;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.booking-ticket-section span {
+  font-size: 2em;
+  color: white;
+}
+
+.booking-proceed-section {
+  text-align: center;
+  margin-top: 1px; 
+}
+
+.booking-proceed-section p {
+  font-size: 0.9em;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.booking-proceed-button {
+  width: 150px;
+  padding: 10px;
+  background: #047130;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family: 'Poppins';
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.booking-proceed-button:hover {
+  background: #bebebe;
+}
+
+.booking-proceed-button.disabled{
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .booking-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .booking-right img.booking-poster {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .booking-right .booking-details {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .booking-ticket-section {
+    justify-content: center;
+  }
+
+  .booking-proceed-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

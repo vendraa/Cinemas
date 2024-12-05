@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    background: url('/public/assets/Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid white;
+  }
+  
+  .logo {
+    width: 64px;
+    height: auto;
+  }
+  
+  .profile-icon {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .search-bar {
+    width: 50%;
+    max-width: 500px; 
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-left: 600px;
+  }

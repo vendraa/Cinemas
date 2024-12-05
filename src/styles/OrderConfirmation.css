@@ -1,0 +1,289 @@
+.order-confirmation-container {
+  padding: 20px;
+  padding-bottom: 120px;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.order-back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 32px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+
+.order-confirmation-container h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+  margin-bottom: 25px; 
+  margin-top: 0; 
+}
+
+.order-logo {
+  width: 64px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.order-countdown-box {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: orange;
+}
+
+.order-countdown-box p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.order-countdown-timer {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.order-details {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.order-movie-info {
+  display: flex;
+  gap: 15px;
+}
+
+.order-movie-image {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.order-movie-text {
+  display: flex;
+  margin-left: -247px;
+}
+
+.order-movie-meta {
+  margin-top: 10px;
+}
+
+.order-movie-location,
+.order-movie-date {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 0px;
+}
+
+.order-movie-location img,
+.order-movie-date img {
+  width: 16px; 
+  height: auto;
+}
+
+.order-ticket-info {
+  margin-top: 20px;
+}
+
+.ticket-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.ticket-number-box {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.ticket-seat-info {
+  flex: 1;
+  margin-left: 10px; 
+  text-align: left;
+}
+
+.ticket-seat-info span {
+  color: lightgray;
+  font-size: 12px;
+}
+
+.ticket-seat-info strong {
+  font-size: 16px;
+  color: white;
+}
+
+.ticket-price {
+  text-align: right;
+  font-size: 16px;
+  color: white;
+}
+
+.order-divider {
+  border: none;
+  border-top: 1px solid white;
+  margin: 15px 0;
+}
+
+.order-payment-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.order-payment-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-total-payment {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: orange;
+}
+
+.order-payment-method {
+  margin: 15px 0;
+  padding: 10px;
+  font-family: 'Poppins';
+  width: 100%;
+  border-radius: 25px;
+}
+
+.order-proceed-button {
+  width: 50%; 
+  padding: 8px; 
+  font-size: 14px;
+  font-family: 'Poppins'; 
+  background-color: #047130;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0 auto; 
+  display: block; 
+  text-align: center; 
+}
+
+.order-proceed-button:hover {
+  background-color: #b6c0b8;
+}
+
+.order-proceed-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.order-note {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  color: lightgray;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: bold;
+  color: black;
+}
+
+.popup-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-family: 'Poppins';
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-buttons button:first-child {
+  background: #007bff;
+  color: white;
+}
+
+.popup-buttons button:last-child {
+  background: #dc3545;
+  color: white;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poppins';
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  border-top: 4px solid orange;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-top: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+

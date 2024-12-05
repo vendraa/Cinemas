@@ -1,0 +1,228 @@
+body.no-scroll {
+  overflow: hidden;
+}
+
+.seat-container {
+  text-align: center;
+  position: relative;
+}
+
+.seat-header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.seat-header .logo {
+  width: 64px;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.screen-area {
+  background: #ffffff;
+  color: black;
+  padding: 10px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 50px;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.seats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seat-spacer {
+  width: 100px; 
+}
+.seat {
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.seat.available {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+.seat.unavailable {
+  background-color: #FF0000;
+  cursor: not-allowed;
+  color: white;
+}
+
+.seat.selected {
+  background-color: #1DE782;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.legend-item {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.legend-item .box {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.legend-item.available .box {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+.legend-item.selected .box {
+  background-color: #1DE782;
+}
+
+.legend-item.unavailable .box {
+  background-color: #FF0000;
+}
+
+.footer {
+  color: white; 
+  box-sizing: border-box;
+  position: relative;
+}
+
+.footer hr {
+  border: 1px solid white; 
+  width: 100%;
+  margin: 0;
+}
+
+.footer-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.footer-details .footer-item {
+  text-align: center;
+  font-size: 16px;
+  flex: 1; 
+}
+
+.footer-buttons {
+  display: flex;
+  padding-right: 30px;
+  gap: 10px;
+}
+
+.footer-buttons button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid white; 
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Poppins';
+}
+
+.seat-back-button{
+  background: none;
+  color: white;
+}
+
+.seat-proceed-button {
+  background-color: #027c2b;
+  color: white;
+  cursor: pointer;
+}
+
+.seat-proceed-button.disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.popup-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-button.yes {
+  background-color: #007bff;
+}
+
+.popup-button.no {
+  background-color: #dc3545;
+}
+
